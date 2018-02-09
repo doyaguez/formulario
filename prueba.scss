@@ -1,0 +1,218 @@
+$colorFondo:#bef7e5;
+
+* {
+  font-family: Verdana;
+}
+
+#nombreEmpresa {
+  margin-right: 90px;
+  font-family: (Helvetica,);
+}
+
+header {
+  margin-top: 30px;
+  text-align: center;
+  background-image: url("H:/2ºDAW/Diseño interfaces web/Pagina web A lot of Troubles/jorge/alot/Pagina web A lot of Troubles/imagenes/fondo.jpg");
+  height: 161px;
+}
+
+h1 {
+  text-shadow: 2px 2px;
+  font-family: Verdana;
+}
+
+#menu {
+  display: inline-block;
+
+  /*background-color:#e2225b;*/
+  height: 20px;
+}
+
+.informacion {
+  font-weight: bold;
+  color: #e2225b;
+}
+
+.user {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: -45px;
+
+  &:hover {
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+.carrito {
+  width: 50px;
+  height: 50px;
+  margin-right: -20px;
+  margin-top: 30px;
+
+  &:hover {
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+.container_12 {
+  background-color: $colorFondo;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+li {
+  margin: 0;
+  display: inline-block;
+  border: solid black 1px;
+  background-color: #e2225b;
+  margin: -5px;
+
+  a {
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: pink;
+  }
+
+  &:active {
+    font-size: 150%;
+  }
+}
+
+#viaje {
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border: solid 1px;
+  background-color: #eaeced;
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border: 0px solid #000000;
+}
+
+#izquierda {
+  margin-top: 50px;
+  background-color: white;
+}
+
+#publicidad {
+  border: 0px solid #000000;
+  width: 100%;
+  height: 100%;
+}
+
+.dias {
+  margin-left: 3px;
+}
+
+#derecha {
+  margin-top: 50px;
+  border: 0px solid #000000;
+}
+
+#boton {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#texto1 {
+  background-color: #eaeced;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 40px;
+  border: solid 1px;
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border: 0px solid #000000;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #e2225b;
+  font-weight: bold;
+}
+
+#muro {
+  width: 620px;
+  height: 457px;
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border: 0px solid #000000;
+}
+
+#fotos {
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border: 0px solid #000000;
+  margin-top: 50px;
+  border: solid 3px;
+  margin-left: 25px;
+}
+
+#derechos {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: bold;
+  color: #e2225b;
+}
+
+#europa {
+  width: 300px;
+  height: 100px;
+  padding-bottom: 50px;
+  float: left;
+}
+
+#redes {
+  margin-top: 20px;
+  margin-left: 150px;
+  font-weight: bold;
+  color: #e2225b;
+}
+
+#iconosRedes {
+  float: right;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+hr {
+  margin-top: 200px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-color: #e2225b;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+}
+
+.error {
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+.imgError {
+  margin-left: 200px;
+  border: solid black 1px;
+}
